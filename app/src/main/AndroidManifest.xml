@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Sam.samvel.pokerasstistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconka"
+        android:label="SSS Poker Bot"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Sam.samvel.pokerasstistant.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.Sam.samvel.pokerasstistant.Splash"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Sam.samvel.pokerasstistant.Sit_place" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.UTG_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.UTG_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Won" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.All_In" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.UTG_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_red_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_black_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_red_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_black_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_red_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.MP_pocket_cards_black_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_red_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.CO_pocket_cards_black_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_red_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_black_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_red_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BT_pocket_cards_black_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Flop" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_red_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_red_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_black_fold" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.SB_pocket_cards_black_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards_red" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards_black" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards_red_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards_black_call" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Tut" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Table" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.BB_pocket_cards_other" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Check" />
+        <activity android:name="com.Sam.samvel.pokerasstistant.Check_or_Fold"></activity>
+    </application>
+
+</manifest>
